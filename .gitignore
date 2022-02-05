@@ -1,0 +1,13 @@
+**/__pycache__/
+**/target/
+**/*.rs.bk
+**/Cargo.lock
+.deps/
+*/src/gd32*/
+*/src/generic.rs
+html/
+mmaps/
+/venv
+
+# automatically generated crates
+/gd32*/

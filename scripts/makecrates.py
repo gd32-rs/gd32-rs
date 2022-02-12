@@ -21,10 +21,12 @@ SVD2RUST_VERSION = "0.21.0"
 
 CRATE_DOC_FEATURES = {
     "gd32f3": ["rt", "gd32f303"],
+    "gd32f4": ["rt", "gd32f403"],
 }
 
 CRATE_DOC_TARGETS = {
     "gd32f3": "thumbv7em-none-eabihf",
+    "gd32f4": "thumbv7em-none-eabihf",
 }
 
 CARGO_TOML_TPL = """\

@@ -10,6 +10,9 @@ sed -i 's#gd32f303#<a href="gd32f3/index.html">GD32F303</a>#' html/gd32f/index.h
 mkdir -p html/gd32f/gd32f3
 python3 scripts/htmlcomparesvd.py html/gd32f/gd32f3 svd/gd32f3*.svd.patched
 
+mkdir -p html/gd32f/gd32f4
+python3 scripts/htmlcomparesvd.py html/gd32f/gd32f4 svd/gd32f4*.svd.patched
+
 
 cat > html/comparisons.html <<EOF
 <!DOCTYPE html>

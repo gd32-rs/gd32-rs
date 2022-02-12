@@ -19,3 +19,12 @@ gd32f3:
     rm_url: https://www.gigadevice.com/manual/gd32f303xxxx-user-manual/
     members:
       - GD32F303
+
+gd32f4:
+  gd32f403:
+    url: https://www.gigadevice.com/products/microcontrollers/gd32/arm-cortex-m4/high-performance-line/gd32f403-series/
+    rm: GD32F40x
+    rm_title: GD32F40x
+    rm_url: https://gd32mcu.21ic.com/data/documents/kaifaban/GD32F403_User_Manual_EN_v2.1.pdf
+    members:
+      - GD32F403

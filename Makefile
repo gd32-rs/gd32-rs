@@ -8,7 +8,7 @@ SHELL := /usr/bin/env bash
 # Path to `svd`/`svdtools`
 SVDTOOLS ?= svd
 
-CRATES ?= gd32f3
+CRATES ?= gd32f3, gd32f4
 
 # All yaml files in devices/ will be used to patch an SVD
 YAMLS := $(foreach crate, $(CRATES), \
